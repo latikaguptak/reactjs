@@ -1,6 +1,7 @@
 
 
-function Form() {
+function Form({Username}) {
+
   return (
     <>
     <section>
@@ -22,6 +23,7 @@ function Form() {
           src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=774&amp;q=80"
           alt=""
         />
+        {Username}
       </div>
       <div>
         <img
@@ -29,6 +31,7 @@ function Form() {
           src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=774&amp;q=80"
           alt=""
         />
+        {Username}
       </div>
       <div>
         <img
@@ -36,6 +39,7 @@ function Form() {
           src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=774&amp;q=80"
           alt=""
         />
+        {Username}
       </div>
     </div>
     <div className="mt-8 text-center md:mt-16">
