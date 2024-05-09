@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
   const [number,setNumber]=useState(false);
   const [charallowed, setCharallowed] = useState(false);
   const [password, setPassword] = useState("");
-
+  useEffect(() =>{
+    
+  },[])
 
   return (
     <>
