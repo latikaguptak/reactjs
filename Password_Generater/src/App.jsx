@@ -7,12 +7,14 @@ function App() {
   const [charallowed, setCharallowed] = useState(false);
   const [password, setPassword] = useState("");
   useEffect(() =>{
-    
+
+
   },[])
 
   return (
     <>
       <h1> Password Generator </h1>
+      <div className=""><spam>copy</spam></div>
     </>
   )
 }
