@@ -8,8 +8,9 @@ function OddEven() {
     <>
       <div>{number}</div>
       <div>
-        <input type="number" onChange={(e) => setNumber(e.target.value)}/>
-      </div>
+        <input type="text" onClick={setNumber}/>
+            
+        </div>
       
     </>
   
