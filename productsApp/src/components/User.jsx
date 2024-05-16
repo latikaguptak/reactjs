@@ -24,7 +24,7 @@ const User = () => {
 
   return (
     <>
-      <div className="bg-gray-100 m-5 rounded-xl shadow-md p-4">
+      <div className="bg-gray-200 m-5 rounded-xl shadow-md p-4">
         {users ? (
           <>
           <h2 className="text-6xl text-center text-sky-800">User Details</h2>
