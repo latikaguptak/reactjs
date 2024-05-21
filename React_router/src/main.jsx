@@ -2,13 +2,23 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider } from 'react-router-dom'
-import Header from './Components/Header/Header.jsx'
+import { RouterProvider, createBrowserRouter} from 'react-router-dom'
+import Home from './Components/Home/Home.jsx'
+import About from './Components/About/About.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Header />,
-    errorElement: <h1>404 Not Found</h1>,
+    element: <App/>,
+    children: [{
+      path: '',
+      element: <Home/>
+    },
+    {
+      path: 'about',
+      element: <About />
+    }
+  ]
+    
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
