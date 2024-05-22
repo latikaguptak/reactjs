@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 function Header() {
   return (
     <>
-    <h1>Header</h1>
+    <h1 className='m-5'>Header</h1>
     <NavLink to='/'
       className={({isActive })=> 
         `bg-gray-200 p-4 m-10  rounded-2xl      ${isActive? "text-orange-700" :"text-gray-700"}`}
