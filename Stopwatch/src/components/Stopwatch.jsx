@@ -86,7 +86,7 @@ const Stopwatch = () => {
 
     return (
         <div className="App">
-            <h1>Latika love Aman 💕💕💕💕💕💕💕💕 </h1>
+            <h1>Time-Stop </h1>
             <h3>{time}:00</h3>
             <button onClick={handleStart}>Start</button>
             <button onClick={handleStop}>Stop</button>
